@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./dist/output.css">
+
+</head>
+<body class="font-primary">
+    <nav class="bg-white w-full flex justify-between py-3 px-4 sticky top-0 md:px-20">
+        <a href="#hero" class="text-2xl font-bold text-orange-400">Coffee</a>
+        <span class="text-2xl md:hidden"><i class="fa-solid fa-bars"></i></span>
+        <div class="space-x-10 font-extralight hidden md:flex">
+            <a href="#hero" class="uppercase">HOME</a>
+            <a href="#service" class="uppercase">SERVICE</a>
+            <a href="#story" class="uppercase">STORIES</a>
+            <a href="#gallery" class="uppercase">GALLERY</a>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="grid grid-cols-1 grid-rows-2 w-full md:h-screen md:grid-rows-1 md:grid-cols-12">
+            <div class="grid place-content-center text-center space-y-8 p-10 md:text-start md:p-20 md:col-span-5">
+                <h1 class="text-5xl lg:text-6xl">Do you want something new?</h1>
+                <p class="text-gray-900/80">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, libero rem modi inventore voluptates nihil mollitia veritatis earum. Nesciunt, nihil.</p>
+                <button class="border-2 border-orange-400 text-lg font-light w-max px-4 py-1 justify-self-center md:justify-self-start hover:bg-orange-400">See more</button>
+            </div>
+            <div class="md:col-span-7">
+                <img class="object-cover w-full h-full" src="./asset/cover.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="grid grid-cols-1 bg-gray-50 md:h-screen md:grid-rows-1 md:grid-cols-12 md:py-16">
+            <div class="px-10 py-12 md:px-24 md:order-2 md:col-span-7 md:space-y-24">
+                <p class="text-lg font-light w-max border-b-2 border-orange-400">Unleash the stories</p>
+                <h1 class="text-3xl font-semibold my-16 lg:leading-normal">Start from curiosity into a hobby and now opening workshop to give back to the community and giving path to those who wants to learn about arts</h1>
+                <p class="text-gray-900/80">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat excepturi assumenda corrupti quasi. Minus, ex consequatur modi voluptatem illo voluptatibus.</p>             
+            </div>
+            <div class="md:p-16 md:order-1 md:col-span-5">
+                <img class="object-cover w-full h-full" src="./asset/img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class="grid grid-cols-1 py-16 px-10 gap-10 md:grid-cols-2 md:p-20">
+            <div class="space-y-5 md:flex md:flex-col md:justify-start">
+                <h1 class="text-xl font-semibold md:text-2xl">The Story</h1>
+                <p class="text-gray-900/80">With a warning label this big, you know they gotta be fun. Bring me the forms I need to fill out to have her taken away. I decline the title of iron cook and accept the lesser title of zinc saucier, which I just made up.</p>
+                <p class="text-gray-900/80">Curabitur felis mi, sodales id ligula ac, pulvinar condimentum nulla. Integer dignissim bibendum augue, id dapibus nisl maximus non. Pellentesque rhoncus vitae odio ut euismod.</p>
+            </div>
+            <div class="space-y-5 md:flex md:flex-col md:justify-start">
+                <h1 class="text-xl font-semibold md:text-2xl">Dreamers</h1>
+                <p class="text-gray-900/80">You probably haven’t heard of them before they sold out scenester literally readymade. Trust fund Thundercats flexitarian, aesthetic Tumblr banjo freegan semiotics biodiesel master cleanse taxidermy blog.</p>
+                <img class="object-cover w-full h-fit" src="./asset/img_1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid grid-rows-1 grid-cols-1 py-16 px-10 gap-10 md:grid-cols-2 md:p-20">
+            <div class="text-center space-y-10 md:flex md:flex-col md:justify-center md:text-start">
+                <p class="text-lg font-light w-max border-b-2 border-orange-400">We're always here</p>
+                <h1 class="text-5xl lg:text-6xl">Subscribe <br> our newsletters</h1>
+                <p class="text-gray-900/80">Lorem ipsum, dolor sit amet adipisicing elit. Repudiandae, ex?</p>
+            </div>
+            <div class="grid place-content-center">
+                <form>
+                    <div class="flex justify-center gap-2">
+                        <input class="text-gray-700 placeholder-gray-500 border rounded-lg px-6 py-2" type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
+        
+                        <button class="text-orange-100 bg-orange-400 uppercase rounded-md px-4 py-3 font-medium hover:bg-orange-300">subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="grid grid-rows-1 grid-cols-4">
+            <img class="object-cover" src="./asset/img (1).jpg" alt="">                        
+            <img class="object-cover" src="./asset/img (2).jpg" alt="">                        
+            <img class="object-cover" src="./asset/img (3).jpg" alt="">                        
+            <img class="object-cover" src="./asset/img (4).jpg" alt="">                                               
+        </div>
+    </section>
+    <footer>
+        <div class="bg-slate-600 text-white grid grid-cols-2 text-center font-light p-16 pb-8 gap-6 md:grid-rows-1 md:grid-cols-4 md:h-3/4 md:text-start">
+            <div>
+                <h3 class="text-xl font-semibold mb-5 md:text-2xl">Store</h3>
+                <p>Featured</p>
+                <p>Reference</p>
+                <p>eBooks</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-5 md:text-2xl">Support</h3>
+                <p>Popular Help Topics</p>
+                <p>Policies</p>
+                <p>Sitemap</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-5 md:text-2xl">Contacts</h3>
+                <p>Modal Systems, Inc.</p>
+                <p>1111 Vallley Road</p>
+                <p>Tel: +123456789</p>
+                <p>Email: info@example.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold mb-5 md:text-2xl">Follow</h3>
+                <span><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-twitter"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-reddit"></i></a></span>
+            </div>
+            <div class="text-end col-span-2 md:col-span-4">
+                <p>Copyright 2022 @ Coffee </p>
+                <p>Website by Thura </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
